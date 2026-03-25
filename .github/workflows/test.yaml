@@ -1,5 +1,7 @@
 name: Test
-on: [push]
+
+on: workflow_dispatch
+
 jobs:
   test:
     # Where run
@@ -44,4 +46,3 @@ jobs:
           PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: allure-history
-          force_orphan: true
