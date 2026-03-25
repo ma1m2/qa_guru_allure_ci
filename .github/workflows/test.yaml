@@ -1,7 +1,5 @@
 name: Test
-
 on: [push]
-
 jobs:
   test:
     # Where run
