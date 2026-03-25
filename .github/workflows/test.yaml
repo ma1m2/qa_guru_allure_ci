@@ -15,9 +15,12 @@ jobs:
         with:
           distribution: 'zulu' # See 'Supported distributions' for available options
           java-version: '21'
-      # run tests
       - name: Fix gradlew permissions
         run: |
           chmod +x gradlew
           sed -i 's/\r$//' gradlew
-      - run: ./gradlew clean test
+      - name: Start selenoid
+        uses: Xotabu4/selenoid-github-action@v2
+
+      # run tests
+      - run: ./gradlew clean test "-Dselenide.remote=http://localhost:4444/wd/hub"
