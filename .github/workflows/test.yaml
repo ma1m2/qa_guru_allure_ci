@@ -16,4 +16,8 @@ jobs:
           distribution: 'zulu' # See 'Supported distributions' for available options
           java-version: '21'
       # run tests
+      - name: Fix gradlew permissions
+        run: |
+          chmod +x gradlew
+          sed -i 's/\r$//' gradlew
       - run: ./gradlew clean test
