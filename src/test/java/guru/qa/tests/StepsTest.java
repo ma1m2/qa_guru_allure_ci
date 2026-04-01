@@ -38,13 +38,6 @@ public class StepsTest {
     step("Check that issue with name " + ISSUE_NAME + " exists", () -> {
       $(withText(ISSUE_NAME)).should(Condition.exist);
     });
-
-    step("Do something", new Allure.ThrowableRunnableVoid() {
-      @Override
-      public void run() throws Throwable {
-        System.out.println("Do something");
-      }
-    });
   }
 
   @Test
