@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","6957","testAnnotatedStep()","","Wed Apr 01 10:39:27 UTC 2026","passed","Wed Apr 01 10:39:34 UTC 2026","","guru.qa.tests.StepsTest","guru.qa.tests.StepsTest","testAnnotatedStep"
+"","7361","testIssueSearch()","","Wed Apr 01 10:39:20 UTC 2026","passed","Wed Apr 01 10:39:27 UTC 2026","","guru.qa.tests.SelenideTest","guru.qa.tests.SelenideTest","testIssueSearch"
+"","2","Create Issue for authorised user","","Wed Apr 01 10:39:20 UTC 2026","passed","Wed Apr 01 10:39:20 UTC 2026","","guru.qa.tests.LabelsTest","guru.qa.tests.LabelsTest","testStaticLabels"
+"","1760","testLambdaStep()","","Wed Apr 01 10:39:18 UTC 2026","passed","Wed Apr 01 10:39:20 UTC 2026","","guru.qa.tests.AttachmentsTest","guru.qa.tests.AttachmentsTest","testLambdaStep"
+"","6166","testLambdaStep()","","Wed Apr 01 10:39:34 UTC 2026","passed","Wed Apr 01 10:39:41 UTC 2026","","guru.qa.tests.StepsTest","guru.qa.tests.StepsTest","testLambdaStep"
+"","3368","testAnnotatedStep()","","Wed Apr 01 10:39:15 UTC 2026","passed","Wed Apr 01 10:39:18 UTC 2026","","guru.qa.tests.AttachmentsTest","guru.qa.tests.AttachmentsTest","testAnnotatedStep"
+"","4","Create Issue for authorised user","","Wed Apr 01 10:39:20 UTC 2026","passed","Wed Apr 01 10:39:20 UTC 2026","","guru.qa.tests.LabelsTest","guru.qa.tests.LabelsTest","testDynamicLabels"
