@@ -1,0 +1,8 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","3916","testAnnotatedStep()","","2026-06-03","passed","2026-06-03","","guru.qa.tests.AttachmentsTest","guru.qa.tests.AttachmentsTest","testAnnotatedStep"
+"","5129","testLambdaStep()","","2026-06-03","passed","2026-06-03","","guru.qa.tests.StepsTest","guru.qa.tests.StepsTest","testLambdaStep"
+"","5237","testAnnotatedStep()","","2026-06-03","passed","2026-06-03","","guru.qa.tests.StepsTest","guru.qa.tests.StepsTest","testAnnotatedStep"
+"","4","Create Issue for authorised user","","2026-06-03","passed","2026-06-03","","guru.qa.tests.LabelsTest","guru.qa.tests.LabelsTest","testStaticLabels"
+"","2","Create Issue for authorised user","","2026-06-03","passed","2026-06-03","","guru.qa.tests.LabelsTest","guru.qa.tests.LabelsTest","testDynamicLabels"
+"","1881","testLambdaStep()","","2026-06-03","passed","2026-06-03","","guru.qa.tests.AttachmentsTest","guru.qa.tests.AttachmentsTest","testLambdaStep"
+"","10598","testIssueSearch()","","2026-06-03","passed","2026-06-03","","guru.qa.tests.SelenideTest","guru.qa.tests.SelenideTest","testIssueSearch"
